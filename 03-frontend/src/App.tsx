@@ -5,10 +5,10 @@ import { ExploreTopBooks } from './layouts/HomePage/ExploreTopBooks';
 
 function App() {
   return (
-    <div><Navbar />
+    <div>
+      <Navbar />
       <ExploreTopBooks />
     </div>
-
   );
 }
 export default App;
